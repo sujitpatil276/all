@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
   loginSubmit(username: String, password: String) {
-
     fetch("http://localhost:3000/users")
       .then(result => result.json())
       .then(result => {
@@ -27,7 +26,6 @@ export class LoginComponent {
         alert("problem occured")
         confirm("please confirm that json-server is on")//can use alert also (or can ommit this)
       })
-
     return false;
   }
 }

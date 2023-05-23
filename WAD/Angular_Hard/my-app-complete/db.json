@@ -13,6 +13,13 @@
       "username": "saif",
       "password": "saif",
       "id": 2
+    },
+    {
+      "fullName": "Balaji Namdeo Vaste",
+      "email": "balajivaste212@gmail.com",
+      "username": "balaji",
+      "password": "Balaji@212",
+      "id": 3
     }
   ]
 }
